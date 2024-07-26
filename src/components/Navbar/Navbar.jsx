@@ -5,7 +5,7 @@ import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import Darkmode from "./Darkmode";
 
-const Navbar = () => {
+const Navbar = ({handleOrderPopup}) => {
   const Menu = [
     {
       id: 1,
@@ -88,7 +88,7 @@ const Navbar = () => {
             </span>
             <span>
               <button
-                onClick={() => alert("Ordering not available yet")}
+                onClick={()=> handleOrderPopup()}
                 className="bg-gradient-to-r from-primary to-secundary
               transition-all duration-200 text-white py-1 px-4 rounded-full
               flex items-center gap-3 group"

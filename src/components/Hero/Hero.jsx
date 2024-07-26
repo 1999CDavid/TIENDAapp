@@ -4,7 +4,7 @@ import imagen2 from "../../assets/Hero/imagen2.png";
 import imagen3 from "../../assets/Hero/imagen3.png";
 import Slider from "react-slick";
 
-const Hero = () => {
+const Hero = ({handleOrderPopup}) => {
   
   var settings = {
     dots: false,
@@ -82,7 +82,7 @@ const Hero = () => {
 
                 <span>
                   <button
-                    onClick={() => alert("Ordering not available yet")}
+                    onClick={() => handleOrderPopup()}
                     className="bg-gradient-to-r from-primary to-secundary
                   hover:scale-105 duration-200 text-white py-1 px-4 rounded-full dark:text-black"
                   >

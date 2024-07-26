@@ -31,18 +31,19 @@ const Banner = () => {
             leading-5"
             >
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum
-              corporis omnis distinctio beatae suscipit ipsa voluptatem rerum
-              pariatur iure aliquid, eaque molestiae quisquam in veniam modi
-              officia tempore. Quaerat, laudantium.
+              corporis omnis distinctio beatae suscipit ipsa voluptatem rerum.
             </p>
+            
             <div className="flex flex-col gap-4">
-              <div data-aos="fade-up" className="flex items-center gap-4 ¿">
+              
+              <div data-aos="fade-up" className="flex items-center gap-4">
                 <GrSecure
                   className="text-4xl h-12 w-12 shadow-sm
                     p-4 rounded-full bg-violet-100 dark:bg-violet-400"
                 />
                 <p>Quality products</p>
               </div>
+              
               <div data-aos="fade-up" className="flex items-center gap-4 ¿">
                 <IoFastFood
                   className="text-4xl h-12 w-12 shadow-sm
@@ -50,6 +51,15 @@ const Banner = () => {
                 />
                 <p>Fast Delivery</p>
               </div>
+              
+              <div data-aos="fade-up" className="flex items-center gap-4 ¿">
+                <GiFoodTruck
+                  className="text-4xl h-12 w-12 shadow-sm
+                    p-4 rounded-full bg-green-100 dark:bg-gren-400"
+                />
+                <p>Easy Payment method</p>
+              </div>
+              
               <div data-aos="fade-up" className="flex items-center gap-4 ¿">
                 <GiFoodTruck
                   className="text-4xl h-12 w-12 shadow-sm
@@ -57,6 +67,7 @@ const Banner = () => {
                 />
                 <p>Get Offers</p>
               </div>
+
             </div>
           </div>
         </div>

@@ -50,7 +50,7 @@ const Products = () => {
   ];
 
   return (
-    <main className="nt-14 mb-12">
+    <main className="nt-14 mb-4">
       <section className="container">
         <div className="text-center mb-10 max-w-[600px] mx-auto">
           <p className="text-sm text-primary">Top Selling Products for you</p>
@@ -86,6 +86,12 @@ const Products = () => {
               </span>
             ))}
           </span>
+          <div className="flex justify-center">
+            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md dark:text-black">
+View All
+
+            </button>
+          </div>
         </span>
       </section>
     </main>
